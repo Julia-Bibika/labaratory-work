@@ -27,5 +27,5 @@ for i in range(n):
 for i in range(len(c)):
     num_3 = (2 * sum * c[i]) - (3 * b[i])
     c.insert(i, num_3)
-    c.pop(i - 1)
+    c.pop(i + 1)
 print("Вектор c = {0}".format(c))
